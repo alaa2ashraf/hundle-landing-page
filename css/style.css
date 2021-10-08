@@ -1,0 +1,173 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 960px) {
+    .col-xs-12 {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+
+@media only screen and (max-width:960px){
+    .text-left {
+        text-align: center;
+    }
+}
+
+
+.header {
+    background-image: url("../images/bg-hero-desktop.svg");
+    background-color: #edfbfefa;
+    background-size: cover;
+}
+.logo {
+    width: 178.5px;
+    height: 29px;
+    margin-top: 30px;
+}
+ .first-button {
+    color: hsl(192, 100%, 9%);
+    background-color: white;
+    padding: 2px 44px;
+    font-weight: bold;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 9px 8px #deebf1;
+    display: block;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+ .second-button {
+    background: hsl(322, 100%, 66%);
+    color: white;
+    padding: 12px 63px;
+    font-weight: bold;
+    border-radius: 25px 25px 25px 25px;
+    
+    border: 1px solid hsl(322, 100%, 66%);
+   
+}
+.mockup {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.title {
+    font-size: 39px;
+    margin-top: 100px;
+}
+.par {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.grow-img {
+    width: 90%;
+    display: block;
+    margin: auto;
+    padding-top: 25px;
+}
+section {
+    border: 1px solid white;
+    box-shadow: 1px 1px 13px 13px #eeeeee;
+    margin: 10% 5% 5% 5%;
+}
+section h1 {
+    color: #0e252b;
+    margin-top: 106px;
+}
+section p {
+    color: #9d9ea0;
+}
+.one {
+    margin-top: 170px;
+}
+.text-left {
+    margin: 3%;
+}
+.ready .text {
+    text-align: center;
+}
+.text,
+.ready-btn {
+    margin: auto;
+}
+.text {
+    margin-top: 40px;
+}
+.ready-btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.text h1 {
+    font-size: 38px;
+}
+footer {
+    background-color: #00252e;
+    color: white;
+}
+.first-section img {
+    filter: brightness(0) invert(1);
+    width: 230px;
+    height: 40px;
+    margin-top: 7px;
+}
+.connect {
+    list-style-type: none;
+    
+}
+.icons p  {
+    display: flex;
+    margin-right: 20%;
+    padding-right: 15%;
+}
+.icons span {
+    padding-right: 10px;
+}
+.icons {
+    margin-top: 30px;
+}
+.second-section,
+.third-section {
+    margin-top: 31px;
+}
+.forth-section span {
+    padding: 13px;
+    display: inline-block;
+}
+.forth-section  a {
+    text-decoration: none;
+    color: white;
+}
+.fab:hover {
+    color:  hsl(322, 100%, 66%);
+    border-color: hsl(322, 100%, 66%);
+}
+.fab {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 9px;
+}
+.second {
+    display: block;
+    margin: auto;
+}
+.second-button:hover {
+    opacity: 0.5;
+}
+.first-button:hover {
+    opacity: 0.8;
+}
+.second-section a,
+.third-section a {
+    color: white;
+    text-decoration: none;
+}
+.second-section a:hover,
+.third-section a:hover {
+    text-decoration: underline;
+}
